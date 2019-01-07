@@ -1,0 +1,6 @@
+ul {
+    list-style-type: none;
+    background-color: #cc9966;
+    width: 200px;
+    cursor: pointer;
+}

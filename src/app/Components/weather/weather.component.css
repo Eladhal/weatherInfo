@@ -1,0 +1,11 @@
+.weather{
+    height: 150px;
+}
+.btn{
+    padding: 2px 5px 2px 5px;
+    width: 60px;
+}
+
+span,p{
+    color: lightgray
+}

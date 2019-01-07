@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}   
+.col {
+      padding-right: 3px;
+      padding-left: 3px;
+    }
+  

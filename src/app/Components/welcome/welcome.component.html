@@ -1,0 +1,5 @@
+<div>
+    <ul *ngIf ="results">
+       <li *ngFor ="let res of results"> <a (click)="clickEvent($event.target.text)"> {{res}}</a></li>
+    </ul>
+</div>

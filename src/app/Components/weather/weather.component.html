@@ -1,0 +1,25 @@
+<div class="container weather" [style.background]="weatherInfo.imageUrl">
+  <div class="row">
+    <div class="col">
+      <p>{{weatherInfo.city}}</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <p>Tmp: <span>{{weatherInfo.tmp}}</span> </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <p>Feels like: <span>{{weatherInfo.feelLike}}</span></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <p>Wind: <span>{{weatherInfo.wind}}</span></p>
+    </div>
+    <div class="col-auto" *ngIf = "selectedCity">
+        <button class="btn btn-dark" (click)="addSelected()">Add</button>
+    </div>
+  </div>
+</div>
