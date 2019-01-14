@@ -4,18 +4,6 @@
         <app-navbar></app-navbar>
     </div>
   </div>
-  <div class="row title">
-      <div class="col-8">
-          <app-welcome></app-welcome>
-      </div>
-      <div class="col-4 selectCity" *ngIf="selectedCity">
-          <app-weather [weatherInfo]="selectedCity" [selectedCity]="true" (addSelectedCity)="addSelectedCity($event)"></app-weather>
-      </div>
-  </div>
-  <div class="row">
-      <div *ngFor="let city of lstOfCities" class="col">
-          <app-weather [weatherInfo]="city" ></app-weather>
-      </div>
-  </div>
+  <router-outlet></router-outlet>
 </div>
 

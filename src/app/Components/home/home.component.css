@@ -1,0 +1,11 @@
+.title{
+    background: url('../../../assets/Images/welcome.jpeg') no-repeat;
+    background-size: 100% 100%;
+    height: 200px;
+    margin-bottom: 5px;
+}
+.selectCity{
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}

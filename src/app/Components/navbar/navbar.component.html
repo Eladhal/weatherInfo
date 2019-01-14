@@ -2,5 +2,10 @@
     <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Search"
                aria-label="Search" (input)="searchPress($event.target.value)">
-      </form>
+    </form>
+    <span class="navbar-brand title"><a routerLink="/Home" routerLinkActive="active"><img class="logo navbar-brand" src="../../../assets/Images/home.png"></a></span>
+    <div class="navbar-brand ml-auto">
+        <button type="button" class="btn btn-primary navbar-brand" routerLink="/Login" routerLinkActive="active">Sign In</button>
+        <button type="button" class="btn btn-primary navbar-brand"  routerLink="/Sign-Up" routerLinkActive="active">Sign Up</button>
+    </div>
 </nav>

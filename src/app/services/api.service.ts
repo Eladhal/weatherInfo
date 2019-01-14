@@ -26,7 +26,7 @@ export class ApiServiceService {
         })
       }
 
-  getCities(): Observable<string[]> {
+  getCitiesFromSearch(): Observable<string[]> {
       return this.subjectCities.asObservable();
   }
 

@@ -1,0 +1,12 @@
+#extended-nav {
+    padding: 0 30px;
+    background: #283e4a;
+    border-top: none;
+    box-shadow: none;
+    height: 75px;
+}
+
+.logo{
+    height: 45px;
+    width: 45px;
+}

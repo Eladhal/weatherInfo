@@ -11,11 +11,11 @@ import { Subscription } from 'rxjs';
 })
 export class WelcomeComponent implements OnInit,OnDestroy {
   results:string[];
-  subsGetCities: Subscription;
+  subsSearchCities: Subscription;
   constructor(private apiService: ApiServiceService) { }
 
   ngOnInit() {
-    this.subsGetCities = this.apiService.getCities().subscribe(cities => { 
+    this.subsSearchCities = this.apiService.getCitiesFromSearch().subscribe(cities => { 
       this.results = cities; 
     });
   }
@@ -25,7 +25,7 @@ export class WelcomeComponent implements OnInit,OnDestroy {
   }
   
   ngOnDestroy() {
-    this.subsGetCities.unsubscribe();
+    this.subsSearchCities.unsubscribe();
   }
 
 }
