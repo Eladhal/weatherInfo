@@ -30,7 +30,6 @@ export class HomeComponent implements OnInit {
          city['current']['temp_c'],
          city['current']['feelslike_c'],
          city['current']['wind_kph'],
-           '1234'
         ))
      });
     }

@@ -40,7 +40,6 @@ export class ApiServiceService {
               data['current']['temp_c'],
               data['current']['feelslike_c'],
               data['current']['wind_kph'],
-              '1234'
             ))       
         })
   }
